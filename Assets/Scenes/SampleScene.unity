@@ -483,6 +483,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Rua_Canto (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 1780239946112641379, guid: 97fc176b56d49d04688b64ab4757dec3, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 1780239946113004867, guid: 97fc176b56d49d04688b64ab4757dec3, type: 3}
       propertyPath: m_RootOrder
       value: 1
@@ -735,6 +739,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Rua_Reta (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 3348718538162873214, guid: 28a96759692692e4c91e105a211e6646, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 28a96759692692e4c91e105a211e6646, type: 3}
 --- !u!1 &1118519375
@@ -774,6 +782,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 846028428, guid: 4b3bb44effa49480d8d18049684cc33a, type: 3}
+      propertyPath: MascaraChao.m_Bits
+      value: 64
+      objectReference: {fileID: 0}
     - target: {fileID: 1884102019447498, guid: 4b3bb44effa49480d8d18049684cc33a, type: 3}
       propertyPath: m_Name
       value: Player
@@ -946,6 +958,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Rua_Reta (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 3348718538162873214, guid: 28a96759692692e4c91e105a211e6646, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 28a96759692692e4c91e105a211e6646, type: 3}
 --- !u!4 &1661298825 stripped
@@ -1054,8 +1070,21 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 45.92354, y: 11.958488, z: 17.680729}
-  m_Center: {x: -0.0573349, y: 5.2166243, z: 0.008359909}
+  m_Size: {x: 45.92354, y: 2.3714209, z: 17.680729}
+  m_Center: {x: -0.0573349, y: 0.42309013, z: 0.008359909}
+--- !u!65 &1767316897
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1767316895}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 42.01028, y: 6.8235397, z: 11.210459}
+  m_Center: {x: -1.8136997, y: 4.7321367, z: -0.9508333}
 --- !u!4 &1861762153 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 7439290834924947225, guid: 63113f90e1f239446953b90b44f55163, type: 3}
@@ -1145,6 +1174,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Rua_Reta (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 3348718538162873214, guid: 28a96759692692e4c91e105a211e6646, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 28a96759692692e4c91e105a211e6646, type: 3}
 --- !u!1001 &681759630037776387
@@ -1214,6 +1247,10 @@ PrefabInstance:
     - target: {fileID: 1780239946112641379, guid: 97fc176b56d49d04688b64ab4757dec3, type: 3}
       propertyPath: m_Name
       value: Rua_Canto
+      objectReference: {fileID: 0}
+    - target: {fileID: 1780239946112641379, guid: 97fc176b56d49d04688b64ab4757dec3, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 1780239946113004867, guid: 97fc176b56d49d04688b64ab4757dec3, type: 3}
       propertyPath: m_RootOrder
@@ -1316,6 +1353,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Rua_Reta
       objectReference: {fileID: 0}
+    - target: {fileID: 3348718538162873214, guid: 28a96759692692e4c91e105a211e6646, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 28a96759692692e4c91e105a211e6646, type: 3}
 --- !u!1001 &6000375190303138672
@@ -1385,6 +1426,10 @@ PrefabInstance:
     - target: {fileID: 7439290834924788537, guid: 63113f90e1f239446953b90b44f55163, type: 3}
       propertyPath: m_Name
       value: Hotel_Estacionamento_Destruido
+      objectReference: {fileID: 0}
+    - target: {fileID: 7439290834924788537, guid: 63113f90e1f239446953b90b44f55163, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 7439290834924947225, guid: 63113f90e1f239446953b90b44f55163, type: 3}
       propertyPath: m_RootOrder
